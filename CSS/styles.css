@@ -1,0 +1,115 @@
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 50%;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25) , 0 4px 4px rgba(0, 0, 0, .25);
+}
+.contained-h1{
+    font-size: 130%;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bolder-span{
+    font-weight: 900;
+}
+.link-span a{
+    color: rgba(150, 80, 225, .5);
+    font-size: 100%;
+    font-weight: 600;
+}
+.imageH{
+    width: 50%;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 5px;
+}
+.details-info{
+    padding-right: 10px;
+    
+}
+/* #container2{
+
+} */
+#container2 .margin-box{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25) , 0 4px 4px rgba(0, 0, 0, .25);
+}
+.error-red{
+    color: rgb(255, 90, 0);
+    font-size: 250%;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.content-body{
+    /* background-image: linear-gradient(rgba(255,255,255,1),#008db9,rgba(0,141,185,.3)); */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25) , 0 4px 4px rgba(0, 0, 0, .25);
+    border: 2px solid #008db9 ;
+    border-radius: 10px;
+    padding: 2em;
+    width:75%;
+    margin: 2em auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#input-form{
+    margin: 2em;
+    width: 100%;
+    height: 60px;
+    display: block;
+    margin: 2em auto;
+    border-radius: 50px;
+    border-color: rgba(150, 80, 225, .5);
+    font-size: 110%;
+     text-transform: uppercase;
+     font-weight: 900;
+     padding-left: 1em;
+    
+}
+#check{
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin: 1em auto;
+    background-image: linear-gradient(rgba(255,255,255,1),#008db9,rgba(0,141,185,.3));
+     font-size: 110%;
+     text-transform: uppercase;
+     font-weight: 900;
+     border: none;
+     border-radius: 10px;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, .25) , 0 4px 4px rgba(0, 0, 0, .25);
+}
+.imageL{
+    width: 100%;
+}
+@media (max-width :800px){
+  .container{
+      width: 100%;
+      display: block;
+}
+.imageH{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.details-info{
+    padding: 1em;
+    
+}
+#container2 .margin-box{
+    width: 100%;
+    display: block;
+}
+}
