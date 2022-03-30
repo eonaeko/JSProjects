@@ -98,6 +98,7 @@ function(){
   /*the courseCode in the array is uppercase there for if a user enter lowercase the code won't properly 
   therefore the below ensure to take all parameter uppercase*/
   course_Code = course_Code.toUpperCase();
+  getContainer2.innerHTML= "";
   let cous = course_Code[0]; // take the first letter of courseCodee entered
   cous = Number(cous);
   if(Number.isNaN(cous) === true){
